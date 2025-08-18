@@ -83,7 +83,7 @@ const Navbar = () => {
               onClick={(e) => scrollToSection(e, "#Home")}
               className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
             >
-              YashVerma
+              Rukhnuddin
             </a>
           </div>
 
@@ -126,7 +126,11 @@ const Navbar = () => {
                 isOpen ? "rotate-90 scale-125" : "rotate-0 scale-100"
               }`}
             >
-              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </button>
           </div>
         </div>

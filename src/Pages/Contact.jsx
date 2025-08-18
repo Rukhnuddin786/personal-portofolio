@@ -40,7 +40,7 @@ const ContactPage = () => {
     });
 
     try {
-      const formSubmitUrl = "https://formsubmit.co/yanishverma77@gmail.com";
+      const formSubmitUrl = "https://formsubmit.co/sardaarrukhnuddin@gmail.com";
 
       const submitData = new FormData();
       submitData.append("name", formData.name);
@@ -99,7 +99,8 @@ const ContactPage = () => {
           <span
             style={{
               color: "#6366f1",
-              backgroundImage: "linear-gradient(45deg, #6366f1 10%, #a855f7 93%)",
+              backgroundImage:
+                "linear-gradient(45deg, #6366f1 10%, #a855f7 93%)",
               WebkitBackgroundClip: "text",
               backgroundClip: "text",
               WebkitTextFillColor: "transparent",
@@ -113,7 +114,8 @@ const ContactPage = () => {
           data-aos-duration="1100"
           className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2"
         >
-          Got a question or want to collaborate? Send me a message and I'll get back to you!
+          Got a question or want to collaborate? Send me a message and I'll get
+          back to you!
         </p>
       </div>
 
@@ -136,7 +138,11 @@ const ContactPage = () => {
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div data-aos="fade-up" data-aos-delay="100" className="relative group">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="relative group"
+              >
                 <User className="absolute left-4 top-4 w-5 h-5 text-gray-400" />
                 <input
                   type="text"
@@ -149,7 +155,11 @@ const ContactPage = () => {
                   required
                 />
               </div>
-              <div data-aos="fade-up" data-aos-delay="200" className="relative group">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="relative group"
+              >
                 <Mail className="absolute left-4 top-4 w-5 h-5 text-gray-400" />
                 <input
                   type="email"
@@ -162,7 +172,11 @@ const ContactPage = () => {
                   required
                 />
               </div>
-              <div data-aos="fade-up" data-aos-delay="300" className="relative group">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="300"
+                className="relative group"
+              >
                 <MessageSquare className="absolute left-4 top-4 w-5 h-5 text-gray-400" />
                 <textarea
                   name="message"

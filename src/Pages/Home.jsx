@@ -30,14 +30,14 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          SOFTWARE
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent">
-          Developer
+          DEVELOPER
         </span>
       </span>
     </h1>
@@ -88,11 +88,14 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Frontend Developer", "Final Year CSE Student"];
-const TECH_STACK = ["React", "JavaScript", "Node.js", "Tailwind"];
+const WORDS = ["SoftWare Developer", "Fresher"];
+const TECH_STACK = ["Python", "DSA", "Full Stack Development", "SQL"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/YashVerma239" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/yash-verma-46b95b238" },
+  { icon: Github, link: "https://github.com/Rukhnuddin786" },
+  {
+    icon: Linkedin,
+    link: "https://www.linkedin.com/in/md-rukhnuddin-587516280/",
+  },
 ];
 
 const Home = () => {
@@ -204,11 +207,11 @@ const Home = () => {
                   data-aos="fade-up"
                   data-aos-delay="1000"
                 >
-                  My name is Yash Verma, a frontend developer currently pursuing
-                  my B.Tech in Computer Science and Engineering from Vidya
-                  College of Engineering. I’m in my final year and deeply
+                  My name is Rukhnuddin, a software developer currently pursuing
+                  my B.Tech in Computer Science and Engineering from Sphoorthy
+                  Engineering College. I’m in my final year and deeply
                   passionate about exploring new technologies. I enjoy building
-                  clean, responsive, and user-friendly websites to solve
+                  clean, responsive, and user-friendly softwares to solve
                   real-world problems.
                 </p>
 
